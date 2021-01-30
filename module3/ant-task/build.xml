@@ -1,4 +1,4 @@
-<project name="AntProject" default="dist" basedir=".">
+<project name="ant-task" default="dist" basedir=".">
 
   <property name="src"   location="src"/>
   <property name="build" location="build"/>
@@ -53,8 +53,8 @@
 
   <target name="dist" depends="compile">
     <mkdir dir="${dist}"/>
-    <jar jarfile="${dist}/module3-antProject.jar" basedir="${build}"/>
-	<tar destfile="${dist}/module3-antProject.tar" basedir="${dist}"/>
+    <jar jarfile="${dist}/testProject.jar" basedir="${build}"/>
+	<tar destfile="${dist}/testProject.tar" basedir="${dist}"/>
 	<echo>=== Dist complete ===</echo>
   </target>
 
