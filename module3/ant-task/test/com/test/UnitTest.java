@@ -1,10 +1,10 @@
 package com.test;
 
-import org.junit.Test;
+//import org.junit.Test;
 
 public class UnitTest {
    
-   @Test
+   //@Test
    public void test(){
 //     Project.test();
    }
